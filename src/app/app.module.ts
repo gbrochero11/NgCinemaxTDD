@@ -9,7 +9,8 @@ import { NavbarMenuComponent } from './landing-page/navbar-menu/navbar-menu.comp
 import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filter.component';
 import { SlidesComponent } from './landing-page/slides/slides.component';
 import { WeekBillboardComponent } from './landing-page/week-billboard/week-billboard.component';
-import { PremieresComponent } from './landing-page/premieres/premieres.component'
+import { PremieresComponent } from './landing-page/premieres/premieres.component';
+import { CarouselComponent } from './landing-page/carousel/carousel.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PremieresComponent } from './landing-page/premieres/premieres.component
     MoviesFilterComponent,
     SlidesComponent,
     WeekBillboardComponent,
-    PremieresComponent
+    PremieresComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,
