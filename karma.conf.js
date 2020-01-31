@@ -26,7 +26,11 @@ module.exports = function (config) {
     logLevel: config.LOG_INFO,
     autoWatch: true,
     browsers: ['Chrome'],
-    singleRun: false,
-    restartOnFileChange: true
+    singleRun: true,
+    restartOnFileChange: true,
+    files: [
+      "./node_modules/jquery/dist/jquery.min.js",
+      "./node_modules/materialize-css/dist/js/materialize.min.js"
+    ]
   });
 };
