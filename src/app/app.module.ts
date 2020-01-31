@@ -10,7 +10,8 @@ import { MoviesFilterComponent } from './landing-page/movies-filter/movies-filte
 import { SlidesComponent } from './landing-page/slides/slides.component';
 import { WeekBillboardComponent } from './landing-page/week-billboard/week-billboard.component';
 import { PremieresComponent } from './landing-page/premieres/premieres.component';
-import { CarouselComponent } from './landing-page/carousel/carousel.component'
+import { CarouselComponent } from './landing-page/carousel/carousel.component';
+import { FooterComponent } from './landing-page/footer/footer.component'
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CarouselComponent } from './landing-page/carousel/carousel.component'
     SlidesComponent,
     WeekBillboardComponent,
     PremieresComponent,
-    CarouselComponent
+    CarouselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
